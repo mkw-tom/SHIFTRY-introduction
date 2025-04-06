@@ -9,14 +9,14 @@
 
 ---
 
-## 🔨 開発状況
+## 🧑🏻‍💻 開発状況
 - 開発期間：現在で約1ヶ月半
 - 人数：1人
 - 完了済み：企画・UIUX設計・DB設計・バックエンド・フロント２割
 - 残る課題：フロントエンド8割・デプロイ(ECS)・リリース
 
 
-##　リポジトリ
+## ⚒️ リポジトリ
 - [バックエンド](https://github.com/mkw-tom/SHIFTRY-backend/tree/develop)
 - [フロントエンド](https://github.com/mkw-tom/SHIFTRY-frontend/tree/develop)
 
