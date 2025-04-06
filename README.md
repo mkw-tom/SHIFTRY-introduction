@@ -17,8 +17,8 @@
 
 
 ## ⚒️ リポジトリ
-- [バックエンド](https://github.com/mkw-tom/SHIFTRY-backend/tree/develop)
-- [フロントエンド](https://github.com/mkw-tom/SHIFTRY-frontend/tree/develop)
+- [バックエンドはこちら](https://github.com/mkw-tom/SHIFTRY-backend/tree/develop)
+- [フロントエンドはこちら](https://github.com/mkw-tom/SHIFTRY-frontend/tree/develop)
 
 ## ✨ 導入までのステップ
 
