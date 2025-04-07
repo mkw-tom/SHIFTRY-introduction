@@ -37,7 +37,7 @@
 | --- | --- | --- | --- |
 | TypeScript | TypeScript | neon | LineOauth |
 | Next.js | express | prisma | LIFF |
-| Redux |  |  | Cookie認証 |
+| Redux |  |  | Bearer認証 |
 | TailwindCSS |  |  | JWT |
 | daisyUI |  |  |  |
 
