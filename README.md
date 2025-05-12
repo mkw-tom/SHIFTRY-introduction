@@ -1,7 +1,4 @@
-# 🚀 SHIFTRY 
-
-現在、LINEグループを活用したシフト管理SaaS **「SHIFTRY」** を開発中です（※開発段階）。
-
+# 🚀 SHIFTRY （※開発段階）
 - SHIFTRY（シフトリー）**は、LINEとAIを活用した小規模店舗向けのシフト自動化SaaSです。
 希望提出から調整・作成・通知まで、すべてLINE上で完結。
 専用のLINE botをグループに招待するだけで、スタッフとのやり取りをスムーズにします。
@@ -33,7 +30,7 @@
 ## 🧩 使用技術
 | フロント | バックエンド | DB | 認証 |
 | --- | --- | --- | --- |
-| TypeScript | TypeScript | neon | LineOauth |
+| TypeScript | TypeScript | neonDB | LineOauth |
 | Next.js | express | prisma | LIFF |
 | Redux |  |  | Bearer認証 |
 | TailwindCSS |  |  | JWT |
@@ -41,37 +38,12 @@
 
 | インフラ | 外部API | テスト・フォーマット | その他 |
 | --- | --- | --- | --- |
-| Vercel (フロント) | line api | githubActions | Figma |
-| AWS ECS（バックエンド） | stripe | jest | Notion |
-|  | openAI api | biome | miro |
-|  |  |  | postman |
+| Vercel (フロント) | line api | githubActions | turbo |
+| AWS ECS（バックエンド） | stripe | jest | postman |
+|  | openAI api | biome |  |
+|  |  |  |  |
 
 
 ## 🗺️ 技術構成図
 ![SHIFTRY pc image](assets/SHIFTRY-技術構成図)
 
-
-## ディレクトリ構成
-- Turboを使用したモノレポ構成を採用しており、frontendとbackendで型とバリデーションを共有し、保守性や変更容易性を考慮した設計にしています。
-shiftry/
-├── apps/ # アプリケーション群
-│ ├── frontend/ # Next.js + React フロントエンド
-│ │ ├── public/
-│ │ ├── app/ # App Router構成
-│ │ └── ...
-│ └── backend/ # Express.js バックエンドAPI
-│ ├── src/
-│ └── ...
-│
-├── packages/ # パッケージ群（共有ロジック・型など）
-│ ├── shared/src/ # Type  / z.infer型 / Prisma型 / Zodスキーマ
-│
-├── .github/ # GitHub Actions 用設定
-│ └── workflows/
-│
-├── .turbo/ # Turboのキャッシュ設定
-├── .env # 共通環境変数
-├── turbo.json # TurboRepo 設定
-├── package.json
-├── tsconfig.base.json
-└── README.md
