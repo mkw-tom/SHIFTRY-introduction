@@ -2,8 +2,11 @@
 
 現在、LINEグループを活用したシフト管理SaaS **「SHIFTRY」** を開発中です（※開発段階）。
 
-ターゲットはITリテラシーの低い小規模事業者で、LINEだけでシフト提出・調整が完結できる、シンプル機能・低価格のSaaSを目指しています。
-沖縄で暮らす中で、未だにExcelや手書きでシフトを管理している店舗が多い現状に課題を感じ、「もっと気軽に、効率よくシフトを組める環境を届けたい」という想いから開発に至りました。。
+- SHIFTRY（シフトリー）**は、LINEとAIを活用した小規模店舗向けのシフト自動化SaaSです。
+希望提出から調整・作成・通知まで、すべてLINE上で完結。
+専用のLINE botをグループに招待するだけで、スタッフとのやり取りをスムーズにします。
+
+「シフト管理はスマホで。」そんな新しい当たり前をつくるべく、日々開発を進めています。
 
 ![SHIFTRY pc image](assets/pc-image)
 
@@ -12,10 +15,6 @@
 ## 🧑🏻‍💻 開発状況
 - 開発期間：現在で約1ヶ月半
 - 人数：1人
-- 完了済み：企画・UIUX設計・DB設計・バックエンド・フロント２割
-- 残る課題：フロントエンド8割・デプロイ(ECS)・リリース
-- 特に意識したこと：企画・使用設計（約70時間以上）、責務分離、DB設計
-
 
 ## ⚒️ リポジトリ
 - [バックエンドはこちら](https://github.com/mkw-tom/SHIFTRY-backend/tree/develop)
@@ -47,3 +46,32 @@
 |  | openAI api | biome | miro |
 |  |  |  | postman |
 
+
+## 🗺️ 技術構成図
+![SHIFTRY pc image](assets/SHIFTRY-技術構成図)
+
+
+## ディレクトリ構成
+- Turboを使用したモノレポ構成を採用しており、frontendとbackendで型とバリデーションを共有し、保守性や変更容易性を考慮した設計にしています。
+shiftry/
+├── apps/ # アプリケーション群
+│ ├── frontend/ # Next.js + React フロントエンド
+│ │ ├── public/
+│ │ ├── app/ # App Router構成
+│ │ └── ...
+│ └── backend/ # Express.js バックエンドAPI
+│ ├── src/
+│ └── ...
+│
+├── packages/ # パッケージ群（共有ロジック・型など）
+│ ├── shared/src/ # Type  / z.infer型 / Prisma型 / Zodスキーマ
+│
+├── .github/ # GitHub Actions 用設定
+│ └── workflows/
+│
+├── .turbo/ # Turboのキャッシュ設定
+├── .env # 共通環境変数
+├── turbo.json # TurboRepo 設定
+├── package.json
+├── tsconfig.base.json
+└── README.md
