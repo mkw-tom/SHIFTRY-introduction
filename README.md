@@ -31,9 +31,9 @@
 | フロント | バックエンド | DB | 認証 |
 | --- | --- | --- | --- |
 | TypeScript | TypeScript | neonDB | LineOauth |
-| Next.js | express | prisma | LIFF |
+| Next.js | express | prisma | JWT |
 | Redux |  |  | Bearer認証 |
-| TailwindCSS |  |  | JWT |
+| TailwindCSS |  |  | Helmet |
 | daisyUI |  |  |  |
 
 | インフラ | 外部API | テスト・フォーマット | その他 |
@@ -41,7 +41,6 @@
 | Vercel (フロント) | line api | githubActions | turbo |
 | AWS ECS（バックエンド） | stripe | jest | postman |
 |  | openAI api | biome |  |
-|  |  |  |  |
 
 
 ## 🗺️ 技術構成図
