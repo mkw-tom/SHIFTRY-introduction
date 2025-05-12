@@ -30,7 +30,7 @@
 ## 🧩 使用技術
 | フロント | バックエンド | DB | 認証 |
 | --- | --- | --- | --- |
-| TypeScript | TypeScript | neonDB | LineOauth |
+| TypeScript | TypeScript | neonDB | LINE Auth |
 | Next.js | express | prisma | JWT |
 | Redux |  |  | Bearer認証 |
 | TailwindCSS |  |  | Helmet |
@@ -38,9 +38,10 @@
 
 | インフラ | 外部API | テスト・フォーマット | その他 |
 | --- | --- | --- | --- |
-| Vercel (フロント) | line api | githubActions | turbo |
-| AWS ECS（バックエンド） | stripe | jest | postman |
-|  | openAI api | biome |  |
+| Vercel (フロント) | LINE BOT | githubActions | turbo |
+| Render（バックエンド） | LINE message API | jest | postman |
+| AWS ECS（移行予定） | Stripe | biome |  |
+|  | openAI api |  |  |
 
 
 ## 🗺️ 技術構成図
