@@ -15,8 +15,7 @@
 - 人数：1人
 
 ## ⚒️ リポジトリ
-- [バックエンドはこちら](https://github.com/mkw-tom/SHIFTRY-backend/tree/develop)
-- [フロントエンドはこちら](https://github.com/mkw-tom/SHIFTRY-frontend/tree/develop)
+- [リポジトリはこちら](https://github.com/mkw-tom/SHIFTRY)
 
 ## ✨ 導入までのステップ
 
