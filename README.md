@@ -1,5 +1,5 @@
 # 🚀 SHIFTRY （※開発段階）
-[Notionで詳しく見る](https://tinted-arthropod-2d9.notion.site/LINE-AI-SHIFTRY-1f0acff094ee8033a682f4884837d208)
+[Notionで詳しく見る](https://tinted-arthropod-2d9.notion.site/LINE-AI-SHIFTRY-1f0acff094ee8033a682f4884837d208)<br>
 [リポジトリへ移動](https://github.com/mkw-tom/SHIFTRY)
 - SHIFTRY（シフトリー）**は、LINEとAIを活用した小規模店舗向けのシフト自動化SaaSです。
 希望提出から調整・作成・通知まで、すべてLINE上で完結。
