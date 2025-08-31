@@ -27,5 +27,5 @@
   
 
 ## 🗺️ 技術構成図
-![SHIFTRY pc image](assets/SHIFTRY-技術構成図.png)
+![SHIFTRY pc image](assets/技術構成図_shiftry.png)
 
