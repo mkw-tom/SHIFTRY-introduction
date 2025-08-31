@@ -26,23 +26,6 @@
 - スタッフは、lineグループ内に「シフト提出依頼通知」の際に送信されたリンクから登録・ログインして、利用します。
   
 
-## 🧩 使用技術
-| フロント | バックエンド | DB | 認証 |
-| --- | --- | --- | --- |
-| TypeScript | TypeScript | neonDB | LINE Auth |
-| Next.js | express | prisma | JWT |
-| Redux |  |  | Bearer認証 |
-| TailwindCSS |  |  | Helmet |
-| daisyUI |  |  |  |
-
-| インフラ | 外部API | テスト・フォーマット | その他 |
-| --- | --- | --- | --- |
-| Vercel (フロント) | LINE BOT | githubActions | turbo |
-| Render（バックエンド） | LINE message API | jest | postman |
-| AWS ECS（移行予定） | Stripe | biome |  |
-|  | openAI api |  |  |
-
-
 ## 🗺️ 技術構成図
 ![SHIFTRY pc image](assets/SHIFTRY-技術構成図.png)
 
