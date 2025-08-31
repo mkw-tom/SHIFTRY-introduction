@@ -6,7 +6,7 @@
 
 「シフト管理はスマホで。」そんな新しい当たり前をつくるべく、日々開発を進めています。
 
-![SHIFTRY pc image](asssets/shiftry-mobile-image.png)
+![SHIFTRY pc image](assets/shiftry-mobile-image.png)
 
 ---
 
